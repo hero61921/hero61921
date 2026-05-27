@@ -17,7 +17,6 @@ import collections
 import concurrent.futures
 import urllib.request
 import asyncio
-import telegram
 from urllib.parse import urlparse
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
