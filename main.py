@@ -21,7 +21,6 @@ import requests
 import aiohttp
 import httpx
 import telebot
-import telegram
 from urllib.parse import urlparse
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
