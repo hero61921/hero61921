@@ -33,7 +33,7 @@ from telegram.ext import CallbackQueryHandler
 ((TELEGRAM_ROBOTZ_TOKENS)) = (("8527631955:AAEtcjAm6Mzpa6WQVKT-dsqqqcF-opbiqHE"))
 
 # ✅️✅️ ((AUTHORIZATION RESPONSE AND WEIGHTED COMMANDING)) ✅️✅️
-def weighted_approval(chance_approved=10):
+def weighted_approval(chance_approved=100):
     return random.randint(1, 100) <= chance_approved
 
 # ✅️✅️ ((USERS IDENTIFICATION AND DOCUMENTS COMMANDING)) ✅️✅️
